@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/taoshihan1991/imaptool/config"
+	"go-fly/config"
 )
 
 type Mysql struct {

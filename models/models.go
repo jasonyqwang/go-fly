@@ -3,7 +3,7 @@ package models
 import (
 	"fmt"
 	"github.com/jinzhu/gorm"
-	"github.com/taoshihan1991/imaptool/config"
+	"go-fly/config"
 	"time"
 )
 

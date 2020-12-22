@@ -2,8 +2,8 @@ package controller
 
 import (
 	"fmt"
-	"github.com/taoshihan1991/imaptool/models"
-	"github.com/taoshihan1991/imaptool/tools"
+	"go-fly/models"
+	"go-fly/tools"
 	"log"
 	"strconv"
 )

@@ -3,9 +3,9 @@ package controller
 import (
 	"encoding/json"
 	"github.com/gin-gonic/gin"
-	"github.com/taoshihan1991/imaptool/config"
-	"github.com/taoshihan1991/imaptool/tmpl"
-	"github.com/taoshihan1991/imaptool/tools"
+	"go-fly/config"
+	"go-fly/tmpl"
+	"go-fly/tools"
 	"io/ioutil"
 	"net/http"
 	"strconv"

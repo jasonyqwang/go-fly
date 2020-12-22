@@ -1,9 +1,9 @@
 package controller
 
 import (
-	"github.com/taoshihan1991/imaptool/config"
-	"github.com/taoshihan1991/imaptool/models"
-	"github.com/taoshihan1991/imaptool/tools"
+	"go-fly/config"
+	"go-fly/models"
+	"go-fly/tools"
 )
 
 func CheckPass(username string, password string) string {

@@ -3,9 +3,9 @@ package cmd
 import (
 	"fmt"
 	"github.com/spf13/cobra"
-	"github.com/taoshihan1991/imaptool/config"
-	"github.com/taoshihan1991/imaptool/models"
-	"github.com/taoshihan1991/imaptool/tools"
+	"go-fly/config"
+	"go-fly/models"
+	"go-fly/tools"
 	"io/ioutil"
 	"os"
 	"strings"

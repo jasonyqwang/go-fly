@@ -2,10 +2,10 @@ package controller
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/taoshihan1991/imaptool/models"
-	"github.com/taoshihan1991/imaptool/tmpl"
-	"github.com/taoshihan1991/imaptool/tools"
-	"github.com/taoshihan1991/imaptool/ws"
+	"go-fly/models"
+	"go-fly/tmpl"
+	"go-fly/tools"
+	"go-fly/ws"
 	"net/http"
 )
 

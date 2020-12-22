@@ -3,7 +3,7 @@ package config
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/taoshihan1991/imaptool/tools"
+	"go-fly/tools"
 	"io/ioutil"
 	"os"
 )

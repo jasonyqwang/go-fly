@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
-	"github.com/taoshihan1991/imaptool/models"
-	"github.com/taoshihan1991/imaptool/tools"
+	"go-fly/models"
+	"go-fly/tools"
 	"log"
 	"net/http"
 	"time"
@@ -56,7 +56,7 @@ func PostNoticeSave(c *gin.Context) {
 	kefuId, _ := c.Get("kefu_name")
 	content := c.PostForm("content")
 	id := c.PostForm("id")
-	models.UpdateWelcome(fmt.Sprintf("%s", kefuId),id, content)
+	models.UpdateWelcome(fmt.Sprintf("%s", kefuId), id, content)
 	c.JSON(200, gin.H{
 		"code":   200,
 		"msg":    "ok",

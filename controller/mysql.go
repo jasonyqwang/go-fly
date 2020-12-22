@@ -3,9 +3,9 @@ package controller
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"github.com/taoshihan1991/imaptool/config"
-	"github.com/taoshihan1991/imaptool/database"
-	"github.com/taoshihan1991/imaptool/tools"
+	"go-fly/config"
+	"go-fly/database"
+	"go-fly/tools"
 	"os"
 )
 

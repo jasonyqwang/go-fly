@@ -4,7 +4,7 @@ import (
 	"github.com/dgrijalva/jwt-go"
 )
 
-const SECRET = "go-chat-go"
+const SECRET = "go-fly-secret"
 
 func MakeToken(obj map[string]interface{}) (string, error) {
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.MapClaims(obj))

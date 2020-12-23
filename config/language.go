@@ -35,7 +35,7 @@ func CreateLanguage(lang string) *Language {
 			IndexVisitors:   "访客入口",
 			IndexAgent:      "客服入口",
 			IndexDocument:   "接口文档",
-			IndexOnlineChat: "真人在线-点击与我交流",
+			IndexOnlineChat: "点击与我交流",
 			Send:            "发送",
 			Notice:          "欢迎您访问！有什么我能帮助您的？",
 			Maintech:        "主要技术架构",

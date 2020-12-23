@@ -63,7 +63,9 @@ func run() {
 
 	//记录日志
 	engine.Use(tools.LoggerToFile())
+	//初始化视图路由
 	router.InitViewRouter(engine)
+	//初始化接口路由
 	router.InitApiRouter(engine)
 
 	//文档服务

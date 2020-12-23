@@ -66,6 +66,7 @@
 
 
 3. 源码运行 go run go-fly.go server port 8081
+go run go-fly.go server --port=8000
 
 4. 源码打包 go build go-fly.go 会生成go-fly可以执行文件
 

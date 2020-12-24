@@ -1,9 +1,6 @@
 var launchButtonFlag=false;
 var titleTimer,titleNum=0;
 var originTitle = document.title;
-if (typeof GOFLY_URL=="undefined"){
-    var GOFLY_URL="https://gofly.sopans.com";
-}
 if (typeof GOFLY_KEFU_ID=="undefined"){
     var GOFLY_KEFU_ID="";
 }

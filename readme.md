@@ -82,6 +82,11 @@ go run go-fly.go server --port=8000
 
 访问：https://gofly.sopans.com
 
+7.cobra 提供了简单的接口来创建命令行程序
+    安装
+    go get -v github.com/spf13/cobra/cobra
+    
+
 参考支持https的部署示例 , 注意反向代理的端口号和证书地址
 
 ```php

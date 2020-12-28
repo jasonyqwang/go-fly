@@ -63,6 +63,8 @@ func init() {
 		},
 	}
 	go UpdateVisitorStatusCron()
+
+	log.Println("ws init")
 }
 func SendServerJiang(content string) string {
 	noticeServerJiang, err := strconv.ParseBool(models.FindConfig("NoticeServerJiang"))
@@ -93,6 +95,8 @@ func UpdateVisitorStatusCron() {
 			}
 		}
 		time.Sleep(60 * time.Second)
+
+		log.Println("UpdateVisitorStatusCron:", visitors)
 	}
 }
 
